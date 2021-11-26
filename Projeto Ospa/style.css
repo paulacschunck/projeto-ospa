@@ -1,0 +1,133 @@
+ header {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #ffffff ;
+  padding: 20px 0;  
+}
+
+
+main{
+  background: #ffffff;
+}
+
+.logopreto {
+  align-content: flex-start;
+  border-radius: 5px;
+  border-color: black;  
+
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 10px 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #537e6c ;
+	text-decoration: underline;
+}
+.banner {
+  width: 100%;
+  height: 50%;
+}
+
+h1 {
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+margin: 10px 0 10px 0;
+}
+h2 {
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p{
+font-size: 18px;
+padding: 10px;
+
+}
+ 
+footer {
+  background-color: #eeeeee;
+  color: #000000;
+  margin-top: 100px;
+}
+.rodape{
+background-color:#eeeeee; 
+height: auto;
+
+}
+.logopretofooter {
+  width: 300px;
+  padding-top: 30px; 
+  padding-left: 580px;  
+}
+
+.redes {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.casa {
+  font-size: 2.0em;
+  margin-left: 30px;
+  text-align: center;
+}
+.rua {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+.centro {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+.cep {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.bilheteria {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+.emailcontato{
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+.copyright {
+  font-size: 15px;
+  margin-left: 30px;
+  text-align: center;
+}
+.regcoral {
+  text-align: center;
+}
+.video {
+  padding: 40px;
+}
+
+@media screen and (max-width: 480px){
+	.box,.banner,.logopreto, main, footer, .logopretofooter,.video{
+		width: auto;
+	}
+	
+}
